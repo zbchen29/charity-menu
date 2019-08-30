@@ -23,6 +23,66 @@
   color: #61dafb;
 }
 
+.txt-cabin {
+    font-family: "Cabin", sans-serif;
+}
+
+.txt-ty {
+    font-size: 10px;
+}
+
+.txt-sm {
+    font-size: 14px;
+}
+
+.txt-md {
+    font-size: 18px;
+}
+
+.txt-lg {
+    font-size: 24px;
+}
+
+.txt-hg {
+    font-size: 48px;
+}
+
+.footer {
+    background-color: lavender;
+    padding: 20px;
+    height: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main-box {
+    width: 1112px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+}
+
+.toolbar {
+    background-color: lavender;
+    height: 48px
+}
+
+@media (max-width: 1112px) {
+    .main-box {
+        width: 846px;
+    }
+}
+
+@media (max-width: 846px) {
+    .main-box {
+        width: 580px;
+    }
+}
+
+@media (max-width: 580px) {
+    .main-box {
+        width: 314px;
+    }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -1,0 +1,10 @@
+.item-card {
+    width: 250px;
+    height: 350px;
+    margin: 8px 8px;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 200px;
+}
