@@ -4,7 +4,25 @@
     margin: 8px 8px;
 }
 
-.card-img {
+.item-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+}
+
+.editing {
+    box-shadow: 0px 0px 5px gray;
+}
+
+.item-card-img {
     object-fit: cover;
     height: 200px;
+}
+
+.item-list-img {
+    object-fit: cover;
+    height: 200px;
+    margin-left: -15px;
 }
